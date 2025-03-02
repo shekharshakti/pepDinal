@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/v1';
+const API_URL = import.meta.env.VITE_API_URL || 'https://pepdinal.onrender.com/api/v1';
 
 // Create a new hospital
 export const createHospital = async (hospitalData) => {
